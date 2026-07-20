@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">Sanitized Voyage Pay architecture</title>
+  <desc id="desc">Role-based clients communicate with a web application and modular API backed by data and isolated integrations.</desc>
+  <rect width="1200" height="620" rx="28" fill="#11130f"/>
+  <g font-family="Inter,Arial,sans-serif">
+    <text x="64" y="72" fill="#f5f7ef" font-size="28" font-weight="700">SYSTEM OVERVIEW</text>
+    <text x="64" y="102" fill="#8f9489" font-size="15">Sanitized portfolio view · implementation details intentionally omitted</text>
+    <g fill="#1c1f19" stroke="#34382f">
+      <rect x="64" y="150" width="230" height="96" rx="18"/><rect x="64" y="262" width="230" height="96" rx="18"/><rect x="64" y="374" width="230" height="96" rx="18"/>
+      <rect x="380" y="204" width="260" height="210" rx="22"/><rect x="728" y="150" width="400" height="320" rx="22"/>
+      <rect x="728" y="500" width="190" height="72" rx="18"/><rect x="938" y="500" width="190" height="72" rx="18"/>
+    </g>
+    <g fill="#dfff72" font-size="13" font-weight="700" letter-spacing="1.5"><text x="88" y="181">CLIENTS</text><text x="404" y="237">EXPERIENCE</text><text x="752" y="181">APPLICATION API</text></g>
+    <g fill="#f5f7ef" font-size="22" font-weight="600"><text x="88" y="219">Operations team</text><text x="88" y="331">Merchant workspace</text><text x="88" y="443">Operator workspace</text><text x="404" y="286">Next.js web app</text></g>
+    <g fill="#a7aca0" font-size="15"><text x="404" y="320">Role-aware navigation</text><text x="404" y="348">Responsive UI system</text><text x="404" y="376">Typed API client</text></g>
+    <g fill="#f5f7ef" font-size="17" font-weight="600"><text x="760" y="227">Identity &amp; access</text><text x="940" y="227">Payments</text><text x="760" y="287">Operations</text><text x="940" y="287">Disputes</text><text x="760" y="347">Settlements</text><text x="940" y="347">Analytics</text><text x="760" y="407">Notifications</text><text x="940" y="407">Audit trail</text></g>
+    <g fill="#dfff72" font-size="14" font-weight="700"><text x="775" y="544">POSTGRESQL</text><text x="991" y="544">INTEGRATIONS</text></g>
+    <g stroke="#70766a" stroke-width="2" fill="none"><path d="M294 198H380"/><path d="M294 310H380"/><path d="M294 422H380"/><path d="M640 310H728"/><path d="M823 470V500"/><path d="M1033 470V500"/></g>
+    <g fill="#70766a"><path d="M372 192l12 6-12 6z"/><path d="M372 304l12 6-12 6z"/><path d="M372 416l12 6-12 6z"/><path d="M720 304l12 6-12 6z"/><path d="M817 492l6 12 6-12z"/><path d="M1027 492l6 12 6-12z"/></g>
+  </g>
+</svg>
+

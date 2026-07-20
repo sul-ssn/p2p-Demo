@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A sanitized interactive portfolio showcase for a multi-role operations platform.">
+  <title>Voyage Pay — Product Showcase</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <aside class="sidebar" aria-label="Primary navigation">
+    <a class="brand" href="#overview" aria-label="Voyage Pay home"><span class="brand-mark">V</span><span>Voyage<br>Pay</span></a>
+    <nav>
+      <a class="nav-link active" href="#overview"><span>01</span> Overview</a>
+      <a class="nav-link" href="#operations"><span>02</span> Operations</a>
+      <a class="nav-link" href="#architecture"><span>03</span> Architecture</a>
+      <a class="nav-link" href="#about"><span>04</span> Case study</a>
+    </nav>
+    <div class="sidebar-note"><span class="pulse"></span> Portfolio demo<br><small>Fictional data only</small></div>
+  </aside>
+
+  <main>
+    <header class="topbar">
+      <button class="menu-button" type="button" aria-label="Open navigation">Menu</button>
+      <div><p class="eyebrow">Product engineering showcase</p><h1>Operations workspace</h1></div>
+      <div class="top-actions"><button id="theme" class="icon-button" type="button" aria-label="Toggle theme">◐</button><div class="avatar">SS</div></div>
+    </header>
+
+    <section id="overview" class="section hero-section">
+      <article class="hero-card">
+        <div class="hero-top"><p class="eyebrow light">Processed volume · demo</p><span class="live"><i></i> System healthy</span></div>
+        <p class="hero-number">₽ 48.2M</p>
+        <div class="hero-meta"><span>+18.4% this month</span><span>1,284 completed operations</span></div>
+        <div class="spark" aria-hidden="true"><i style="height:28%"></i><i style="height:44%"></i><i style="height:38%"></i><i style="height:61%"></i><i style="height:54%"></i><i style="height:78%"></i><i style="height:71%"></i><i style="height:94%"></i><i style="height:86%"></i><i style="height:100%"></i></div>
+      </article>
+      <div class="metric-grid">
+        <article class="metric"><span class="metric-icon">↗</span><p>Success rate</p><strong>96.8%</strong><small>+1.2 pp</small></article>
+        <article class="metric"><span class="metric-icon">◎</span><p>Active operators</p><strong>42</strong><small>8 online now</small></article>
+        <article class="metric"><span class="metric-icon">◷</span><p>Median handling</p><strong>04:18</strong><small>−32 sec</small></article>
+        <article class="metric"><span class="metric-icon">◇</span><p>Needs attention</p><strong>7</strong><small class="warning">3 high priority</small></article>
+      </div>
+    </section>
+
+    <section id="operations" class="section panel">
+      <div class="section-head"><div><p class="eyebrow">Live operations</p><h2>Recent activity</h2></div><div class="controls"><label class="search"><span>⌕</span><input id="search" type="search" placeholder="Search operations" aria-label="Search operations"></label><select id="status" aria-label="Filter by status"><option value="all">All statuses</option><option value="Completed">Completed</option><option value="Processing">Processing</option><option value="Review">Review</option></select></div></div>
+      <div class="table-wrap"><table><thead><tr><th>Operation</th><th>Merchant</th><th>Amount</th><th>Assigned to</th><th>Status</th><th>Updated</th></tr></thead><tbody id="rows"></tbody></table></div>
+      <p id="empty" class="empty" hidden>No operations match this filter.</p>
+    </section>
+
+    <section id="architecture" class="section split">
+      <article class="story-card accent"><p class="eyebrow light">Architecture</p><h2>Built around clear ownership.</h2><p>Role-specific workspaces sit above a modular application layer. Sensitive state transitions stay server-side, while integrations remain isolated behind explicit boundaries.</p><a href="docs/architecture.svg">Open system diagram <span>↗</span></a></article>
+      <article class="story-card"><p class="eyebrow">Engineering focus</p><ul class="feature-list"><li><span>01</span><div><strong>Explicit lifecycle</strong><p>Controlled transitions and an auditable history for every operation.</p></div></li><li><span>02</span><div><strong>Role-based experience</strong><p>Focused tools for each participant instead of one overloaded interface.</p></div></li><li><span>03</span><div><strong>Secure boundaries</strong><p>Authorization, validation, and sensitive configuration remain server-side.</p></div></li></ul></article>
+    </section>
+
+    <section id="about" class="section closing">
+      <p class="eyebrow">Behind the product</p><h2>From fragmented workflows<br>to one operational system.</h2><p>This public prototype was rebuilt specifically for the portfolio. It demonstrates product structure and interface craft without exposing production code, customer data, infrastructure, or commercial logic.</p>
+      <div class="closing-links"><a href="docs/case-study.md">Read case study <span>↗</span></a><a href="docs/publication-boundary.md">Publication boundary <span>↗</span></a></div>
+    </section>
+    <footer><span>Voyage Pay · Portfolio showcase</span><span>Designed &amp; engineered by Suleyman</span></footer>
+  </main>
+  <div class="scrim"></div>
+  <script src="script.js"></script>
+</body>
+</html>
+
